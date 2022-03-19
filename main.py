@@ -15,11 +15,6 @@ from game.gameinfo import GameInfo
 
 
 
-
-
-
-
-
 class draw():
     def draw(win, images, player_car, computer_car, game_info):
         for img, pos in images:
