@@ -14,6 +14,7 @@ import tkinter as tk
 
 
 #Class draw helps to draw
+#This is the main game, without the menu
 class draw():
     def draw(win, images, player_car, computer_car, game_info):
         for img, pos in images:

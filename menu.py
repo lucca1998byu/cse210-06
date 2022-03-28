@@ -1,6 +1,8 @@
 import tkinter as tk 
 import pygame
 
+
+#This class creates a menu with 3 functions: Start, Help and Exit in Tkinter before the game
 class Menu():
     def __init__(self):
         self.root = tk.Tk()

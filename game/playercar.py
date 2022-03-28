@@ -1,5 +1,8 @@
 from game.abstractcar import AbstractCar
 import game.constants
+
+
+#this class sets the start position and velocity of the car
 class PlayerCar(AbstractCar):
     IMG = game.constants.RED_CAR
     START_POS = (180, 200)

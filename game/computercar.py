@@ -1,6 +1,8 @@
 from game.abstractcar import AbstractCar
 import pygame, math
 import game.constants
+
+#this class creates a car controled by the computer
 class ComputerCar(AbstractCar):
     IMG = game.constants.GREEN_CAR
     START_POS = (150, 200)
