@@ -21,7 +21,7 @@ class Menu():
     
     def start(self):
         pygame.font.init()
-        from main import draw
+        from game.director import draw
         draw()
     def help(self):
         instructions = """
