@@ -7,7 +7,7 @@ class Menu():
     def __init__(self):
         self.root = tk.Tk()
         gui = tk.Frame(self.root)
-        gui.master.title("Racing Menu")
+        gui.master.title("Sweet Race Menu")
         self.root.geometry("250x200")
         btn_exit = tk.Button(self.root, text="Exit", command=self.quit)
         btn_help = tk.Button(self.root, text="Help", command=self.help)
