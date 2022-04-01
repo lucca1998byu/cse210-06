@@ -10,9 +10,7 @@ from game.computercar import ComputerCar
 from game.abstractcar import AbstractCar
 from game.gameinfo import GameInfo
 
-
 import tkinter as tk
-
 
 #Class draw helps to draw
 #This is the main game, without the menu

@@ -4,7 +4,7 @@ from asyncio import constants
 import time, pygame
 from game.utils import blit_rotate_center, blit_text_center
 
-#this class creates de player car
+#this class creates the player car
 class AbstractCar:
     def __init__(self, max_vel, rotation_vel):
         self.img = self.IMG

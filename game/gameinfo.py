@@ -11,7 +11,6 @@ from game.computercar import ComputerCar
 from game.abstractcar import AbstractCar
 
 
-
 #this class sets the velocity, time and level information in the window
 class GameInfo():
     LEVELS = 10

@@ -36,7 +36,6 @@ Press D to turn right"""
         self.root.destroy()
         pygame.quit()
         
-   
 
 
 if __name__ == "__main__":
